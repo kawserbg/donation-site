@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 50px;
+}
+
+p{
+    font-size: 16px;
+    margin: 25px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.header-area{
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.site-header{
+    color: #ffffff;
+    height: 500px;
+    padding-top: 150px;
+}
+
+.site-header h1{
+    font-size: 64px;
+}
+
+.donation-button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #554994;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.donation-area{
+    padding: 75px 0;
+}
+
+.donation-amount{
+    display: flex;
+    justify-content: center;    
+}
+
+.donation-amount p{
+    background-color: #bbbbbb;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 10px;
+}
+
+#active-amount{
+    background-color: #9ED2C6;
+    border: 2px solid #54BAB9;    
+}
+
+.donation input{
+    width: 50%;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+}
+
+.planning-area{
+    padding: 80px 0;
+}
+
+.planing-content-list{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.single-content{
+    width: 250px;
+    text-align: left;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.single-content img{
+    width: 50px;
+    height: 50px;
+}
+
+.single-content h3{
+    margin-top: 16px;
+}
+
+.single-content p{
+    margin: 10px 0 10px 0; 
+}
+
+.pale-silver{
+    background-color: #D7CDCC;
+}
+
+.thistle-color{
+    background-color: #D9BCE1;
+}
+
+.mauvelous-color{
+    background-color: #E9939C;
+}
+
+.contact-us{
+    padding: 80px 0;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.contact-us form{
+    margin-top: 40px;
+}
+
+.form-input input, .form-input textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.subscription{
+    padding: 80px 0;
+}
+
+.subscription form{
+    background-color: #e9edc9;
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.subscription form input[type=email]{
+    background-color: #dddddd;
+    border: none;
+    padding: 12px;
+    border-radius: 5px 0 0 5px;
+}
+
+.subscription form input[type=submit]{
+    background-color: #554994;
+    border: none;
+    padding: 12px;
+    border-radius: 0 5px 5px 0;
+    color: #ffffff;
+    margin-left: -4px;
+}
+
+.footer-area{
+    background-color: #000000;
+    padding: 50px 0;
+    color: #ffffff;
+}
+
+.footer-area h4{
+    color: #554994;
+    font-size: 24px;
+    margin-bottom: 10px;
+    line-height: 10px;
+}
